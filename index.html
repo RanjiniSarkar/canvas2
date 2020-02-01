@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBVxa9LBIuGhm5HxA5vt3ii5E2TEjlZWwc",
+    authDomain: "canvas-project-955c4.firebaseapp.com",
+    databaseURL: "https://canvas-project-955c4.firebaseio.com",
+    projectId: "canvas-project-955c4",
+    storageBucket: "canvas-project-955c4.appspot.com",
+    messagingSenderId: "4460223458",
+    appId: "1:4460223458:web:6ac6a72477346482ff37bb"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <div id ="canvascontainer"></div>
+      <p> 
+        <button id = "saveButton">save</button>
+        </p>
+        
+      
+    
+      <script src="sketch.js"></script>
+  
+
+</body></html>
